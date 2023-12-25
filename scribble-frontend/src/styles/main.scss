@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Nunito:wght@700&display=swap");
+
+@import "./settings/reset.scss";
+@import "./settings/variables.scss";
+@import "./pages/Home.scss";
+@import "./pages/Lobby.scss";
+@import "./pages/PlayGame.scss";
+@import "./components/Avatars.scss";
+@import "./components/Settings.scss";
+@import "./components/Title.scss";
+@import "./components/Rules.scss";
+@import "./components/AllPlayers.scss";
+@import "./components/Canvas.scss";
+@import "./components/CanvasTools.scss";
+@import "./components/Chat.scss";
+@import "./components/Messages.scss";
+@import "./components/Scoreboard.scss";
+
+body {
+  background-color: $background-color;
+}

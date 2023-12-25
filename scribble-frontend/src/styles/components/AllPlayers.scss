@@ -1,0 +1,32 @@
+img {
+  max-width: 100%;
+}
+
+.players {
+  font-size: 10px;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  justify-content: center;
+  align-items: flex-end;
+
+  &__player {
+    flex: 1;
+    display: grid;
+    justify-items: center;
+  }
+
+  &__avatar {
+    width: 5.5rem;
+    height: auto;
+    cursor: pointer;
+    width: min(12.5em, 100%);
+    min-width: 7.5em;
+    transition: ease-in-out;
+
+    &:hover {
+      transform: scale(125%);
+    }
+  }
+}
